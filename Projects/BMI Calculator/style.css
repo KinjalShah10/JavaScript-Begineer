@@ -1,0 +1,24 @@
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+}
+.guide{
+    text-align:justify;
+    font-size: larger;
+    margin: 50px;
+    text-wrap:pretty;
+    
+}
+div{
+    text-align: center;
+
+}
+button{
+    font-size: larger;
+    align-content: flex-start;
+    margin-top: 30px;
+    border-radius: 50px;
+    border-color: black;
+}

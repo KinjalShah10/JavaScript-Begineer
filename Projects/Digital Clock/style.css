@@ -1,0 +1,17 @@
+body{
+    background-color:aliceblue;
+}
+button{
+    font-size: larger;
+    align-content:center;
+    margin-top: 30px;
+    border-radius: 50px;
+    border-color: black;
+    margin-left: 330px;
+    
+}
+    
+h1{
+    text-align: center;
+    font-size:xx-large;
+}
