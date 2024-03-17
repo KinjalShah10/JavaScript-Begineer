@@ -4,7 +4,7 @@ const body = document.querySelector('body');
 //for each is used for node list 
 buttons.forEach(function(button)
 {
-    console.log(button);
+    //console.log(button);
     button.addEventListener('click', function(e)
     {
         console.log(e);
