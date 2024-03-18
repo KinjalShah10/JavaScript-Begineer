@@ -22,3 +22,9 @@ button{
     border-radius: 50px;
     border-color: black;
 }
+#results{
+    padding-top: 20px;
+    font-size:x-large;
+    color:white;
+    
+}
