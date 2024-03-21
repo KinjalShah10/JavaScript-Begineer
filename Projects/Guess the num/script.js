@@ -6,34 +6,44 @@ const remaining = document.querySelector('.lastResult');
 const lowOrHi = document.querySelector('.lowOrHi');
 const startOver = document.querySelector('.resultParas');
 
-const p = document.createElement('p')
+const p = document.createElement('p');
 
-let prevGuess = []
+//one array that stores the values given by user.
+let prevGuess = [];
+//numberof guessing
 let numGuess = 1;
+//after 10 user is not allowed to play and start again
 let playGame = true;
+
+
 
 if(playGame){
     submit.addEventListener('click',function(e){
-        e.preventDefault()
-        const guess = parseInt(userInput.value)
+        e.preventDefault();
+
+        // takes values from the user.
+        const guess = parseInt(userInput.value);
         console.log(guess);
         validateGuess(guess)
-    })
+    });
 }
 
+//validate that the value is corect or not.
 function validateGuess(guess){
     if(isNaN(guess)){
-        alert('Plearse enter a valid number')
+        alert('Please enter a valid number');
         
     }
     else if (guess < 1){
-    alert('Plearse enter a number more than 1')
+    alert('Please enter a number more than 1');
     }
     else if (guess > 100){
-    alert('Plearse enter a number less than 100')
+    alert('Please enter a number less than 100');
     }
     else{
+        //pushing the number in array.
         prevGuess.push(guess)
+        //after pushing check the no. of attempts.
         if(numGuess === 11){
             displayGuess(guess)
             displayMesssgae(`Game Over.Random number was ${randomNumber}`)
@@ -47,6 +57,7 @@ function validateGuess(guess){
     
 }
 
+//checks the number acoordingly and prints the message.
 function checkGuess(guess){
     if(guess===randomNumber){
         displayMesssgae(`You guessed it WOhooooo`)
@@ -54,17 +65,21 @@ function checkGuess(guess){
 
 
     }
-    else if(guess <randomNumber){
-        displayMesssgae(`Number is tooo low`)
+    else if(guess < randomNumber){
+        displayMesssgae(`Number is tooo low`);
     }
     else if(guess > randomNumber){
-        displayMesssgae(`Number is tooo high`)
+        displayMesssgae(`Number is tooo high`);
     }
 
 
 }
+
+//Dom maipulation is done here
 function displayGuess(guess){
+    //after the value is sumbit we need to display it.
     userInput.value = ''
+    //array displaying
     guessSlot.innerHTML += `${guess},`
     numGuess++;
     remaining.innerHTML = `${11 - numGuess}`
@@ -86,16 +101,16 @@ function endGame(){
 }
 function newGame(){
 
-   const newGameButton = document.querySelector('#newGame')
+   const newGameButton = document.querySelector('#newGame');
    newGameButton.addEventListener('click',function(e){
     randomNumber= parseInt(Math.random()*100 + 1);
-    prevGuess=[]
-    numGuess=1
-    guessSlot.innerHTML=''
+    prevGuess = [];
+    numGuess = 1;
+    guessSlot.innerHTML='';
     remaining.innerHTML=`${11 - numGuess}`;
-    userInput=removeAttruibute('disabled')
-    startOver.removeChild(p)
-    playGame = true
+    userInput=removeAttruibute('disabled');
+    startOver.removeChild(p);
+    playGame = true;
 
    })
 

@@ -1,14 +1,14 @@
 html {
     font-family: sans-serif;
-  }
-  
+}
+/*   
   body {
-    width: 300px;
+    width:280px;
     max-width: 750px;
     min-width: 480px;
     margin: 0 auto;
     background-color: #212121;
-  }
+  } */
   
   .lastResult {
     color: white;
@@ -29,10 +29,11 @@ html {
     font-size: 30px;
     border-style: none;
     margin-top: 30px;
-    /* margin-left: 50px; */
-  }
+  } 
+  /* margin-left: 50px;*/
   
-  #subt {
+  
+  #submit{
     background-color: #161616;
     color: #ffffff;
     width: 200px;
@@ -72,10 +73,11 @@ html {
     box-sizing: border-box;
     text-align: center;
     width: 450px;
-    height: 550px;
+    height: 650px;
     background-color: #474747;
     color: #fff;
     font-size: 25px;
+    
   }
   
   h1 {
@@ -111,7 +113,7 @@ html {
     font-size: 1.5rem;
   }
   
-  .projects {
+  /* .projects {
     display: flex;
     flex-direction: column;
   }
@@ -124,4 +126,4 @@ html {
     text-decoration: none;
     border: 2px solid #212121;
     margin-top: 5px;
-  }
+  } */

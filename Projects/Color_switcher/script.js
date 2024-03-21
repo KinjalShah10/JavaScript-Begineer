@@ -8,7 +8,7 @@ buttons.forEach(function(button)
     button.addEventListener('click', function(e)
     {
         console.log(e);
-        console.log(e.target);
+        console.log(e.target);//target will be targeting that particular id and function on that.
         if(e.target.id === "red"){
             body.style.backgroundColor = e.target.id;
         }

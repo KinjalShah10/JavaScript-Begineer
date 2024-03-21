@@ -17,9 +17,8 @@ div{
 }
 button{
     font-size: larger;
-    align-content: flex-start;
     margin-top: 30px;
-    border-radius: 50px;
+    border-radius: 30px;
     border-color: black;
 }
 #results{
@@ -27,4 +26,9 @@ button{
     font-size:x-large;
     color:white;
     
+}
+#weight_guide{
+    padding-top: 10px;
+    color: black;
+    font-size: larger;
 }
