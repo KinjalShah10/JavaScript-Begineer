@@ -1,0 +1,34 @@
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+}
+.guide{
+    text-align:justify;
+    font-size: larger;
+    margin: 50px;
+    text-wrap:pretty;
+    
+}
+div{
+    text-align: center;
+
+}
+button{
+    font-size: larger;
+    margin-top: 30px;
+    border-radius: 30px;
+    border-color: black;
+}
+#results{
+    padding-top: 20px;
+    font-size:x-large;
+    color:white;
+    
+}
+#weight_guide{
+    padding-top: 10px;
+    color: black;
+    font-size: larger;
+}
