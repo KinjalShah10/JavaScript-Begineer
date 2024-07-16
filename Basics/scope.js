@@ -47,7 +47,7 @@ function addone(num){
 }
  // will print no error
 
-addTwo(4)
+//addTwo(4)
 const addTwo = function(num){
     return num+2
 }
