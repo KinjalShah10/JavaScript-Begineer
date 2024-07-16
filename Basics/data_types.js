@@ -63,7 +63,7 @@ console.log(anotherId);
 //Arrays
 const heros = ["Kinjal","Amit","Somil"]
 //console.log(heros);
-console.log(typeof(heros));
+console.log(typeof(heros)); // gives object
 
 //Objects :Key Value pairs
 let myObj=
@@ -72,11 +72,11 @@ let myObj=
     age:18
 }
 //console.log(myObj);
-console.log(typeof(myObj));
+console.log(typeof(myObj)); // will give object
 
 const myFun = function()
 {
     console.log("Hello Kinjal");
 }
 
-console.log(typeof(myFun));
+console.log(typeof(myFun)); //will give function
