@@ -20,5 +20,7 @@
 
 // document.querySelector('') => will give any thing we ask for by it.
 
-// document.querySelectorAll('') => will be giving all the content not only one and will give in nodelist. 
+// document.querySelectorAll('') => will be giving all the content not only one and will give in nodelist.
+// node list is not an array but simlar to array and mostly properties are same as array.
+// node list dosent have map so we need to convert in array so we will write Array.from for using for each and map functionalities.
 
