@@ -11,13 +11,13 @@
     }
 
     week.children[3].style.color = "orange"
-    console.log(week.firstElementChild); 
+    console.log(week.firstElementChild); //targets the first child
     console.log(week.lastElementChild);
 
     const dayOne = document.querySelector('.days') //target to days class and will give only one value
     console.log(dayOne);
     console.log(dayOne.parentElement)    // prints the parent of that variable
-    console.log(dayOne.nextElementSibling)
+    console.log(dayOne.nextElementSibling) // gives next after monday ie tuesday
 
 
     //----------NODELIST---------------------
