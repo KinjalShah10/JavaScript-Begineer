@@ -81,3 +81,5 @@ switch (month) {
         console.log("default case match");
         break;
 }
+
+// when we dont write break it matches with all after that except default value.
