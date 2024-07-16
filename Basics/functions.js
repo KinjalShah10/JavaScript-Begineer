@@ -39,7 +39,7 @@ function addTwoNum(num1,num2){
 function loginUserMessage(username){
     if(username === undefined)
     {
-        console.log("Please enter a username")
+        console.log("Please enter a username1")
         return
     }
     return `${username} just logged in`
@@ -50,7 +50,7 @@ console.log(loginUserMessage( ))  //undefined
 function loginUserMessage(username){
     if(" ")
     {
-        console.log("Please enter a username")
+        console.log("Please enter a username2")
         return
     }
     return `${username} just logged in`
