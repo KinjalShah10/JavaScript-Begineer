@@ -6,10 +6,10 @@ h1{
 }
 .guide{
     text-align:justify;
-    font-size: larger;
+    font-size: x-large;
     margin: 50px;
     text-wrap:pretty;
-    
+    text-align: center;  
 }
 div{
     text-align: center;
@@ -20,6 +20,14 @@ button{
     margin-top: 30px;
     border-radius: 30px;
     border-color: black;
+}
+
+label{
+    font-size: xx-large;
+}
+
+input{
+    font-size: x-large;
 }
 #results{
     padding-top: 20px;
