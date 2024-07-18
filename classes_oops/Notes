@@ -1,0 +1,28 @@
+Do javascript have classes?
+yes,but after es6 its prototype based language.
+
+
+Its just a sytatic sugar.
+
+########  OOPS ########
+
+Object => collection of properties and methods
+eg. toLowerCase
+
+# Why use oop
+
+
+# Parts of OOPs
+Oject literl => literally object
+
+- constructor function 
+- prototype
+- classses
+- Instances(new, this)
+
+# 4 Pillars
+
+- Abstraction 
+- Inheritance
+- Encapsulation 
+- Polymorphism
