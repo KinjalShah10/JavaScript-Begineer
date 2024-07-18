@@ -1,0 +1,11 @@
+JS have prototypely behaviour means Haar nahi manti ek nahi toh uske upar jake puchti hai but harna nahi hai....
+
+arrow function sdosent have the this keyword only becare of prototypely.
+
+all the this,map keyword and all is because of its protype of JS
+
+# Prototype Inheritance
+
+Array ---> Object ---> Null
+String --------------> Null
+Function -----> Object -------> Null
