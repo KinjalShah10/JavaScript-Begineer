@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body style="background-color:rgb(10, 10, 10);">
+    
+</body>
+<!-- <script>
+// function can be called inside the function , but   we cant access into the out of the scope
+
+function init(){
+    let name = "Kinjal";
+    function displayName(){
+        console.log(name);
+    }
+    displayName();
+}
+init();
+
+function Fun(){
+    let name = "Kinjaaaaa";
+    function displayName(){
+        console.log(name);
+    }
+    return displayName();
+}
+const myFun = Fun();
+myFun();
+</script> -->
+
+<script>
+        // document.getElementById("orange").onclick = function(){
+        //     document.body.style.backgroundColor = `orange`
+        // }
+        // document.getElementById("green").onclick = function(){
+        //     document.body.style.backgroundColor = `green`
+        // }
+
+        function clickHandler(color){
+            // document.body.style.backgroundColor = `${color}`
+
+            return function(){
+                document.body.style.backgroundColor = `${color}`
+            }
+        }
+
+        document.getElementById('orange').onclick = clickHandler("orange")
+        document.getElementById('green').onclick = clickHandler("green")
+
+</script>
+
+
+</html>
